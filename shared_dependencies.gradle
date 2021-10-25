@@ -1,0 +1,40 @@
+dependencies {
+    implementation "com.google.android.material:material:$material_version"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.core:core-ktx:$core_ktx_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_version"
+    implementation "androidx.legacy:legacy-support-v4:$legacy_support_version"
+    testImplementation "junit:junit:$junit_version"
+    androidTestImplementation "androidx.test.ext:junit:$androidx_junit_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    androidTestImplementation "androidx.room:room-testing:$room_version"
+
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
+
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    api "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    api "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+
+    api "org.koin:koin-core:$koin_version"
+    api "org.koin:koin-android:$koin_version"
+    api "org.koin:koin-android-viewmodel:$koin_version"
+
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+
+    //mockito
+    testImplementation "org.mockito:mockito-core:3.3.1"
+    testImplementation "org.mockito:mockito-inline:3.2.4"
+
+    // mockito kotlin
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0"
+
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
+}

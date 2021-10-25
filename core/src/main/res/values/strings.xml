@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Dream Movie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="film_cover">film cover</string>
+    <string name="info_emblem">emblem info</string>
+    <string name="runtime">Runtime</string>
+    <string name="popularity">Popularity</string>
+    <string name="creator">Featured Director</string>
+    <string name="overview">Overview</string>
+    <string name="image_cover_film">film cover image</string>
+    <string name="change_language_settings">Change Language Settings</string>
+
+    <string name="movie">MOVIE</string>
+    <string name="tv">TV SHOW</string>
+    <string name="favorite_title_tab">FAVORITE</string>
+    <string name="movie_details">Movie Detail</string>
+    <string name="tv_details">TV Show Detail</string>
+    <string name="label_main_menu">Main Menu</string>
+    <string name="label_content_detail">Content Detail</string>
+    <string name="share">Share</string>
+    <string name="production_countries">Production Countries</string>
+    <string name="message_in_share">%1$s\n\nEnjoy the service %2$s \n\nThanks to Dicoding</string>
+    <string name="click_button_one_more_to_exit">Press back once more again to exit</string>
+
+    <string name="vote_average">Vote Average</string>
+    <string name="vote_count">Vote Count</string>
+    <string name="none">-</string>
+    <string name="original_language">Original Language</string>
+
+    <string name="movie_lower_case">Movie</string>
+    <string name="tv_lower_case">Tv Show</string>
+    <string name="favorite_title">Favorite</string>
+
+    <string name="no_data">No data</string>
+
+    <string name="favorite">Content successfully added to favorites list</string>
+    <string name="un_favorite">Content has been removed from the favorites list</string>
+
+    <string name="asc">Ascending</string>
+    <string name="desc">Descending</string>
+    <string name="label_sort">sort action</string>
+    <string name="label_remove">Remove</string>
+    <string name="sort_action">sort action</string>
+    <string name="label_null">null</string>
+</resources>

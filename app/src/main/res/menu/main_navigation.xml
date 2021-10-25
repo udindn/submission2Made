@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navMovie"
+            android:title="@string/movie_lower_case"
+            android:visible="true"
+            android:icon="@drawable/ic_movie"/>
+
+    <item android:id="@+id/navTvShow"
+            android:title="@string/tv_lower_case"
+            android:icon="@drawable/ic_live_tv"/>
+
+<!--    <item android:id="@+id/navFavorite"-->
+<!--            android:title="@string/favorite_title"-->
+<!--            android:icon="@drawable/ic_favorite"/>-->
+</menu>
