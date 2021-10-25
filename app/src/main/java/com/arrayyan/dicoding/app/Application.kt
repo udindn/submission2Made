@@ -12,6 +12,11 @@ import org.koin.core.context.startKoin
 import org.koin.core.logger.Level
 
 class Application : Application() {
+
+    companion object {
+        const val BASE_URL_POSTER="https://image.tmdb.org/t/p/"
+    }
+
     override fun onCreate() {
         super.onCreate()
         startKoin {

@@ -9,8 +9,8 @@ import com.arrayyan.core.domain.model.ContentModel
 import com.arrayyan.core.ui.BaseActivity
 import com.arrayyan.core.utils.loadImage
 import com.arrayyan.core.utils.parseDateToYear
-import com.arrayyan.dicoding.BuildConfig
 import com.arrayyan.dicoding.R
+import com.arrayyan.dicoding.app.Application
 import com.arrayyan.dicoding.databinding.ActivityContentBinding
 import com.arrayyan.dicoding.fragment.MoviesFragment
 import com.arrayyan.dicoding.fragment.TvShowsFragment
@@ -87,7 +87,7 @@ class ContentActivity : BaseActivity<ActivityContentBinding>() {
 
                 loadImage(
                     this,
-                    "${BuildConfig.BASE_URL_POSTER}/w185/${it.posterPath}",
+                    "${Application.BASE_URL_POSTER}/w185/${it.posterPath}",
                     binding.ivCover
                 )
 
@@ -119,7 +119,7 @@ class ContentActivity : BaseActivity<ActivityContentBinding>() {
 
                 loadImage(
                     this,
-                    "${BuildConfig.BASE_URL_POSTER}/w185/${it.posterPath}",
+                    "${Application.BASE_URL_POSTER}/w185/${it.posterPath}",
                     binding.ivCover
                 )
             }

@@ -25,11 +25,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-
-        debug {
-            applicationIdSuffix ".debug"
-            buildConfigField "String", 'BASE_URL_POSTER', BASE_URL_POSTER
-        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.arrayyan.core.databinding.ItemContentBinding
 import com.arrayyan.core.domain.model.ContentModel
 import com.arrayyan.core.utils.loadImage
-import com.arrayyan.dicoding.BuildConfig
 import com.arrayyan.dicoding.R
+import com.arrayyan.dicoding.app.Application
 import java.util.ArrayList
 
 class ContentAdapter : RecyclerView.Adapter<ContentAdapter.ListViewHolder>() {
@@ -37,7 +37,7 @@ class ContentAdapter : RecyclerView.Adapter<ContentAdapter.ListViewHolder>() {
         private val binding = ItemContentBinding.bind(itemView)
         fun bind(data: ContentModel) {
             with(binding) {
-                loadImage(itemView.context, "${BuildConfig.BASE_URL_POSTER}w185/${data.posterPath}", ivCover, R.drawable.ic_load,
+                loadImage(itemView.context, "${Application.BASE_URL_POSTER}w185/${data.posterPath}", ivCover, R.drawable.ic_load,
                     pbCoverItem.root)
                 tvTitle.text = data.title
                 tvDescription.text = data.overview
