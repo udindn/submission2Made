@@ -29,13 +29,5 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:$glide_version"
     kapt "com.github.bumptech.glide:compiler:$glide_version"
 
-    //mockito
-    testImplementation "org.mockito:mockito-core:$mockito_core_version"
-    testImplementation "org.mockito:mockito-inline:$mockito_inline_version"
-
-    // mockito kotlin
-    testImplementation "com.nhaarman.mockitokotlin2:$mockito_kotlin_version"
-    testImplementation "androidx.arch.core:$core_testing_version"
-
     debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakcanary_android_version"
 }
