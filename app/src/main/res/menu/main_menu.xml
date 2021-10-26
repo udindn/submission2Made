@@ -9,7 +9,6 @@
     </item>
 
     <item
-        android:id="@+id/iv_setting"
         android:icon="@drawable/ic_settings"
         android:title="@string/change_language_settings"
         app:showAsAction="ifRoom">

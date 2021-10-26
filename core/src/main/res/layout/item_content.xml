@@ -15,9 +15,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/colorLine"
         android:contentDescription="@string/film_cover"
         android:src="@drawable/ic_load"
-        android:background="@color/colorLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -86,10 +86,10 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:text="@string/label_remove"
-        android:visibility="visible"
         android:textSize="12sp"
+        android:visibility="visible"
+        app:drawableTopCompat="@drawable/ic_delete"
         app:layout_constraintBottom_toBottomOf="@+id/iv_cover"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:drawableTopCompat="@drawable/ic_delete" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

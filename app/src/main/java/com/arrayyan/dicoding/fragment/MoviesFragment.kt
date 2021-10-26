@@ -36,13 +36,13 @@ class MoviesFragment : BaseFragment<FragmentMoviesBinding>() {
         moviesViewModel.movie.observe(viewLifecycleOwner, { movie ->
             if (movie != null) {
                 when (movie) {
-                    is Resource.Loading -> binding.progressBar.visibility = View.VISIBLE
+                    is Resource.Loading -> binding.pbLoadListMovie.visibility = View.VISIBLE
                     is Resource.Success -> {
-                        binding.progressBar.visibility = View.GONE
+                        binding.pbLoadListMovie.visibility = View.GONE
                         contentAdapter.setData(movie.data)
                     }
                     is Resource.Error -> {
-                        binding.progressBar.visibility = View.GONE
+                        binding.pbLoadListMovie.visibility = View.GONE
                     }
                 }
             }

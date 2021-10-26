@@ -1,5 +1,6 @@
 package com.arrayyan.favorite.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,6 +22,7 @@ class ContentDatabaseAdapter: RecyclerView.Adapter<ContentDatabaseAdapter.ListVi
     private var listData = ArrayList<ContentModel>()
     var onItemClick: ((ContentModel, Int) -> Unit)? = null
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setData(newListData: List<ContentModel>?) {
         if (newListData == null) return
         listData.clear()

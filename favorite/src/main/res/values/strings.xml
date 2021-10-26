@@ -1,9 +1,7 @@
 <resources>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="delete_title">Delete Favorite</string>
     <string name="confirmation_delete">Are you sure you want to delete it from the favorites list?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="not_connection">Not Connection</string>
 </resources>

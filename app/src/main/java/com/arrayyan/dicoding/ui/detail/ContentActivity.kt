@@ -130,9 +130,9 @@ class ContentActivity : BaseActivity<ActivityContentBinding>() {
 
     private fun showLoading(show: Boolean) {
         if (show) {
-            binding.progressBar.visibility = View.VISIBLE
+            binding.pbLoadDetail.visibility = View.VISIBLE
         } else {
-            binding.progressBar.visibility = View.GONE
+            binding.pbLoadDetail.visibility = View.GONE
         }
     }
 

@@ -1,7 +1,6 @@
 package com.arrayyan.core.domain.model
 
 import android.os.Parcelable
-import com.arrayyan.core.data.source.remote.response.ContentResponse
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize

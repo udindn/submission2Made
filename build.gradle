@@ -24,13 +24,20 @@ buildscript {
     ext.lifecycle_version = "2.2.0"
 
     ext.koin_version = "2.1.6"
+    ext.mockito_core_version = "3.3.1"
+    ext.mockito_inline_version = "3.2.4"
+    ext.mockito_kotlin_version = "2.1.0"
+    ext.core_testing_version = "2.1.0"
+    ext.leakcanary_android_version = "2.4"
+    ext.sqlcipher_version = "4.4.0"
+    ext.sqlite_ktx_version = "2.1.0"
 
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.1"
+        classpath "com.android.tools.build:gradle:7.0.3"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30"
 
         // NOTE: Do not place your application dependencies here; they belong

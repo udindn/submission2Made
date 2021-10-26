@@ -1,5 +1,6 @@
 package com.arrayyan.dicoding.fragment.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,6 +17,7 @@ class ContentAdapter : RecyclerView.Adapter<ContentAdapter.ListViewHolder>() {
     private var listData = ArrayList<ContentModel>()
     var onItemClick: ((ContentModel) -> Unit)? = null
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setData(newListData: List<ContentModel>?) {
         if (newListData == null) return
         listData.clear()

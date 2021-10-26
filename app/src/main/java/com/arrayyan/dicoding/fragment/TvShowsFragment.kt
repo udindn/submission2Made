@@ -37,13 +37,13 @@ class TvShowsFragment : BaseFragment<FragmentTvShowsBinding>() {
         tvShowsViewModel.tvShow.observe(viewLifecycleOwner, { tvShow ->
             if (tvShow != null) {
                 when (tvShow) {
-                    is Resource.Loading -> binding.progressBar.visibility = View.VISIBLE
+                    is Resource.Loading -> binding.pbLoadListTv.visibility = View.VISIBLE
                     is Resource.Success -> {
-                        binding.progressBar.visibility = View.GONE
+                        binding.pbLoadListTv.visibility = View.GONE
                         contentAdapter.setData(tvShow.data)
                     }
                     is Resource.Error -> {
-                        binding.progressBar.visibility = View.GONE
+                        binding.pbLoadListTv.visibility = View.GONE
                     }
                 }
             }

@@ -29,7 +29,7 @@
             android:layout_height="wrap_content">
 
             <ProgressBar
-                android:id="@+id/progressBar"
+                android:id="@+id/pb_load_detail"
                 style="?android:attr/progressBarStyle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
