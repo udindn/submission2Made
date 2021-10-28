@@ -85,12 +85,12 @@ class TvShowsFavoriteFragment : BaseFragment<FragmentFavoriteTvShowsBinding>() {
                 contentDatabaseAdapter.setData(tvShow)
                 tvShows.addAll(tvShow)
                 binding.progressBar.visibility = View.GONE
-                binding.blankView.visibility = View.GONE
+                binding.gTvFavoriteBlank.visibility = View.GONE
             } else {
                 contentDatabaseAdapter.setData(tvShow)
                 tvShows.clear()
                 binding.progressBar.visibility = View.GONE
-                binding.blankView.visibility = View.VISIBLE
+                binding.gTvFavoriteBlank.visibility = View.VISIBLE
             }
         })
     }

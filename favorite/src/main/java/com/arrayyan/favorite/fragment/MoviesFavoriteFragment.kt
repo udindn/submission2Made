@@ -85,12 +85,12 @@ class MoviesFavoriteFragment : BaseFragment<FragmentFavoriteMoviesBinding>() {
                 contentDatabaseAdapter.setData(movie)
                 movies.addAll(movie)
                 binding.progressBar.visibility = View.GONE
-                binding.blankView.visibility = View.GONE
+                binding.gMovieFavoriteBlank.visibility = View.GONE
             } else {
                 contentDatabaseAdapter.setData(movie)
                 movies.clear()
                 binding.progressBar.visibility = View.GONE
-                binding.blankView.visibility = View.VISIBLE
+                binding.gMovieFavoriteBlank.visibility = View.VISIBLE
             }
         })
 

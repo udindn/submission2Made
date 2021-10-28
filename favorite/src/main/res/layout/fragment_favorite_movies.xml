@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
     <ImageView
-        android:id="@+id/iv_favorite_blank"
+        android:id="@+id/iv_movie_favorite_blank"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:contentDescription="@string/favorite_title"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
     <TextView
-        android:id="@+id/tv_blank"
+        android:id="@+id/tv_movie_favorite_blank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -69,14 +69,14 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_favorite_blank" />
+        app:layout_constraintTop_toBottomOf="@+id/iv_movie_favorite_blank" />
 
     <androidx.constraintlayout.widget.Group
-        android:id="@+id/blank_view"
+        android:id="@+id/g_movie_favorite_blank"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:visibility="invisible"
-        app:constraint_referenced_ids="iv_favorite_blank,tv_blank"
+        app:constraint_referenced_ids="iv_movie_favorite_blank,tv_movie_favorite_blank"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
